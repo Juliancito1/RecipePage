@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+h1,h2,h3{
+    font-family: "Young serif", sans-serif;
+    font-weight: 100;
+}
+
+h2,h3{
+    color: hsl(14,45%,36%);
+}
+
+ol li {
+    color: hsl(14,45%,36%);
+}
+
+.black{
+    color: black;
+}
+
+p{
+    font-size: 16px;
+}
+
+main{
+    font-family: "Outfit", sans-serif ;
+    display: flex;
+    justify-content: center;
+}
+
+@media (min-width: 375px) and (max-width: 767px)
+{
+    .card{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 700px;
+        padding: 0 30px 0 30px;
+        background-color: white;
+    }
+    img{
+        height: 150px;
+        object-fit: contain;
+        border-radius: 1.5%;
+    }
+    .image{
+        text-align: center;
+        width: 100%;
+    }
+    h1{
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .center{
+        background-color: hsl(332, 60%, 95%);
+        border-radius: 2.5%;
+    }
+    .Preparation h3{
+        color: hsl(332,50%,40%);
+        font-weight: 700;
+        padding: 0 20px 0 20px;
+    }
+    .table{
+        width: 100%;
+        padding: 0 30px 0 30px;
+    }
+    .table td:first-child{
+        text-align: left;
+    }
+    .table td:last-child{
+        text-align: left;
+    }
+    td{
+        border-bottom: 1px solid rgb(231, 231, 231);
+        padding-bottom: 5px;
+    }
+    .quantity{
+        color: hsl(14,45%,36%);
+        font-weight: bold;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+
+}
+
+@media (min-width: 992px)
+{
+    body{
+        background-color: hsl(30, 54%, 90%);
+    }
+    .card{
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 2%;
+        border: 1px grey solid;
+        width: 700px;
+        padding: 30px;
+        background-color: white;
+    }
+    img{
+        height: 300px;
+        object-fit: cover;
+        border-radius: 1.5%;
+    }
+    .image{
+        text-align: center;
+    }
+    h1{
+        font-size: 40px;
+        margin-bottom: 0px;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .center{
+        background-color: hsl(332, 60%, 95%);
+        border-radius: 2.5%;
+    }
+    .Preparation h3{
+        color: hsl(332,50%,40%);
+        font-weight: 700;
+        padding: 0 20px 0 20px;
+    }
+    .table{
+        width: 100%;
+        padding: 0 30px 0 30px;
+    }
+    .table td:first-child{
+        text-align: left;
+    }
+    .table td:last-child{
+        text-align: left;
+    }
+    td{
+        border-bottom: 1px solid rgb(231, 231, 231);
+        padding-bottom: 5px;
+    }
+    .quantity{
+        color: hsl(14,45%,36%);
+        font-weight: bold;
+    }
+}
